@@ -70,4 +70,4 @@ if (state == states.idle or state == states.walk) {
 		away_from_home = false;
 	}
 }
-alarm_set(0, 90);
+alarm_set(0, 60);

@@ -18,3 +18,21 @@ dashSpd = 10;
 
 maxMana = 10;
 currentMana = maxMana;
+
+lvl = 1;
+xp = 0;
+xpRequire = 10;
+
+function add_xp (xp_to_add) {
+	xp += xp_to_add;
+	if (xp <= xpRequire) {
+		level++;
+		xp -= xpRequire;
+		xpRequire *= 1.4;
+	}
+}
+
+hpTotal = 10;
+hp = hpTotal;
+
+invincible = false;
