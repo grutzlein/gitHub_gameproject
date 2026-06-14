@@ -10,6 +10,8 @@
     {"name":"obj_solid_parent","order":5,"path":"objects/obj_solid_parent/obj_solid_parent.yy",},
     {"name":"obj_tree","order":4,"path":"objects/obj_tree/obj_tree.yy",},
     {"name":"draw_manabar","order":1,"path":"scripts/draw_manabar/draw_manabar.yy",},
+    {"name":"spr_evilsoldier_attack","order":14,"path":"sprites/spr_evilsoldier_attack/spr_evilsoldier_attack.yy",},
+    {"name":"spr_evilsoldier_walk","order":15,"path":"sprites/spr_evilsoldier_walk/spr_evilsoldier_walk.yy",},
     {"name":"spr_player_idle","order":4,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"spr_player_roll","order":5,"path":"sprites/spr_player_roll/spr_player_roll.yy",},
     {"name":"spr_player_walk","order":1,"path":"sprites/spr_player_walk/spr_player_walk.yy",},

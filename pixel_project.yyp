@@ -30,6 +30,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"draw_manabar","path":"scripts/draw_manabar/draw_manabar.yy",},},
     {"id":{"name":"State","path":"scripts/State/State.yy",},},
+    {"id":{"name":"spr_evilsoldier_attack","path":"sprites/spr_evilsoldier_attack/spr_evilsoldier_attack.yy",},},
+    {"id":{"name":"spr_evilsoldier_walk","path":"sprites/spr_evilsoldier_walk/spr_evilsoldier_walk.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_kick","path":"sprites/spr_player_kick/spr_player_kick.yy",},},
     {"id":{"name":"spr_player_roll","path":"sprites/spr_player_roll/spr_player_roll.yy",},},
