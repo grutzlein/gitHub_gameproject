@@ -25,8 +25,8 @@ xpRequire = 10;
 
 function add_xp (xp_to_add) {
 	xp += xp_to_add;
-	if (xp <= xpRequire) {
-		level++;
+	if (xp >= xpRequire) {
+		lvl++;
 		xp -= xpRequire;
 		xpRequire *= 1.4;
 	}
@@ -34,5 +34,7 @@ function add_xp (xp_to_add) {
 
 hpTotal = 10;
 hp = hpTotal;
+
+dmg = 5;
 
 invincible = false;

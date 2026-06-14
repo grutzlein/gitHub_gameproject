@@ -3,7 +3,7 @@
   "%Name":"spr_player_kick",
   "bboxMode":2,
   "bbox_bottom":27,
-  "bbox_left":13,
+  "bbox_left":12,
   "bbox_right":32,
   "bbox_top":1,
   "collisionKind":1,

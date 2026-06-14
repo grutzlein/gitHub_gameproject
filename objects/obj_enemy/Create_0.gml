@@ -6,7 +6,8 @@ target_y = obj_player.y;
 states = {
 	walk : new State(spr_evilsoldier_walk),
 	attack : new State(spr_evilsoldier_attack),
-	idle : new State(spr_evilsoldier_idle)
+	idle : new State(spr_evilsoldier_idle),
+	dead : new State(spr_evilsoldier_death)
 }
 
 states.attack.StateOnEnd(states.idle);
@@ -25,3 +26,12 @@ away_from_home = false;
 invincible = false;
 
 alarm[0] = 1;
+
+hpTotal = 10;
+hp = hpTotal;
+
+invincible = false;
+
+dead = false;
+
+hpLowerZero = false;
