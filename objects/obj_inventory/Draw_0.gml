@@ -1,7 +1,7 @@
 
 
 
-if (InventoryStayOpen) {
+if (InventoryOpen) {
 draw_sprite_stretched
 (
 	spr_inventory,
@@ -29,12 +29,12 @@ draw_sprite_stretched
 		draw_set_alpha(1.0);
 	}
  }
-InventoryOpen = true;
+ stateInventory = "open";
 }
- 
-if (InventoryAccess && InventoryOpen) {
-	InventoryStayOpen = false;
+
+/*if (InventoryAccess and InventoryOpen == true) {
+	InventoryOpen = false;
 /*sprite_delete(spr_inventory);
 sprite_delete(spr_slots);
 sprite_delete(spr_moonflower);*/
-}
+//}

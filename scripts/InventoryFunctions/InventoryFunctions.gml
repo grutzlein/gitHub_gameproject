@@ -36,6 +36,17 @@ function InventoryRemove(rootObject,itemType)
 	 objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo];
 	 objectTo.inventory[slotTo] = _itemFrom;
  }
+ 
+ function accessInventory (currentState) {
+	if (currentState == "open") {
+		InventoryOpen = false;
+		stateInventory = "closed";
+	}
+	
+	if (currentState == "closed") {
+		InventoryOpen = true;
+	}
+ }
 	 
 	 
 	 
