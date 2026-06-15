@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hitbox",
+  "%Name":"obj_hitboxEnemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hitbox",
+  "name":"obj_hitboxEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/player.yy",
+    "name":"enemies",
+    "path":"folders/enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
