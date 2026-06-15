@@ -32,9 +32,3 @@ draw_sprite_stretched
  stateInventory = "open";
 }
 
-/*if (InventoryAccess and InventoryOpen == true) {
-	InventoryOpen = false;
-/*sprite_delete(spr_inventory);
-sprite_delete(spr_slots);
-sprite_delete(spr_moonflower);*/
-//}

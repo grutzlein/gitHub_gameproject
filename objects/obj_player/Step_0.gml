@@ -22,10 +22,10 @@ if (state == states.idle or state == states.walk or state == states.dash) {
 		vsp = ver * spdNormal;
 	}
 	
-	if (dash and currentMana >= 5) {
+	if (dash and mana >= 5) {
 		dashDuration = 10;
 		hsp = sign(hor) * dashSpd;
-		currentMana -= 5;
+		mana -= 5;
 		state_set(states.dash);
 		invincible = true;
 		alarm[0] = 30;
@@ -59,8 +59,8 @@ if (state == states.idle or state == states.walk or state == states.dash) {
 	
 }
 
-if (currentMana <= maxMana - 0.01) {
-	currentMana += 0.01;
+if (mana <= manaTotal - 0.015) {
+	mana += 0.015;
 }
 
 depth = -y;
