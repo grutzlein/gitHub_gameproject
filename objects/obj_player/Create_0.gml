@@ -1,8 +1,5 @@
-current_text_index = 0;
 spdNormal = 1;
 spdDiagonal = 1;
-current_text_line_number = 0;
-
 
 states = {
 	idle : new State(spr_player_idle),
@@ -48,9 +45,3 @@ attackQReady = true;
 
 currentText = "";
 currentlyTalking = false;
-
-kb_x = 0;
-kb_y = 0;
-
-moveable = true;
-currentlyTalking = noone;

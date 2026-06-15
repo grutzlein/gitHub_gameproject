@@ -1,9 +1,8 @@
 if (state == states.idle or state == states.walk or state == states.dash ) {
 
 	dashDuration = max(dashDuration -1, 0);
-	
 
-	if ( currentlyTalking == noone) {
+	if ( currentlyTalking == false) {
 	left = keyboard_check(ord("A")) == true;
 	right = keyboard_check(ord("D")) == true;
 	up = keyboard_check(ord("W")) == true;
@@ -69,24 +68,13 @@ depth = -y;
 
 
 if (keyboard_check_pressed(vk_enter)) {
-	if(currentlyTalking == noone) {
-	var who_is_here = instance_place(x,y,obj_npc_talk);
+	var who_is_here = instance_place(x,y,obj_npc);
 	if ( who_is_here != noone) {
-	currentText = who_is_here.text[0];
-	currentlyTalking = who_is_here;
-	current_text_index = 0;
-	current_text_line_number = 0;
+	currentText = who_is_here.text;
+	currentlyTalking = true;
 	}
-
-	}else {
-		if (current_text_line_number < array_length(currentlyTalking.text) -1) {
-		current_text_line_number ++;
-		currentText = currentlyTalking.text[current_text_line_number]
-		current_text_index = 0;
-		} else {
-		currentlyTalking = noone;
-		}
-
+	else {
+		currentlyTalking = false;
 	}
 
 }

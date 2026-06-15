@@ -35,7 +35,7 @@ draw_text(dx + barw / 2, dy + barh / 2, "MANA");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-if (currentlyTalking != noone) {
+if (currentlyTalking == true) {
 	var x1 = 0
 	var y1 = window_get_height() - 160;
 	var x2 = window_get_width();
@@ -43,14 +43,9 @@ if (currentlyTalking != noone) {
 	draw_set_colour(c_white); 
 	draw_rectangle(x1,y1,x2,y2, false);
 	
-	var text_Padding = 32;
-	var text_x = x1 + text_Padding;
-	var text_y = y1 + text_Padding;
-	
-	var box_w = x2 - x1 - text_Padding * 2;
-	var box_h = y2 - y1;
+	var text_x = x1 + 32;
+	var text_y = y1 + 32;
 	
 	draw_set_colour(c_black);
-	draw_text_ext(text_x,text_y,string_copy(currentText,1,current_text_index), -1, box_w );
-	current_text_index ++;
+	draw_text(text_x,text_y,currentText);
 }
