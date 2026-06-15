@@ -1,11 +1,12 @@
-#macro INVENTORY_SLOTS 15
-rowLength = 6;
+#macro INVENTORY_SLOTS 12
+rowLength = 3;
 inventory = array_create(INVENTORY_SLOTS, -1);
 randomize();
 inventory[0] = 0;
 inventory[1] = 0;
-inventory[2] = 1;
+inventory[2] = 0;
 
 InventoryOpen = false;
 
 stateInventory = "closed";
+

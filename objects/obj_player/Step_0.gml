@@ -64,3 +64,28 @@ if (mana <= manaTotal - 0.015) {
 }
 
 depth = -y;
+
+
+if (keyboard_check_pressed(vk_enter)) {
+	var who_is_here = instance_place(x,y,obj_npc);
+	if ( who_is_here != noone) {
+	currentText = who_is_here.text;
+	currentlyTalking = true;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

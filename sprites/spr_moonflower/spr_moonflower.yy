@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4e9d8f07-bf89-4f6a-80fe-c6975c7093bf","name":"4e9d8f07-bf89-4f6a-80fe-c6975c7093bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"9cfde17e-e799-460e-9081-d859ebddad66","name":"9cfde17e-e799-460e-9081-d859ebddad66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"de55401a-6723-4d23-a49b-978b983aa9ba","name":"de55401a-6723-4d23-a49b-978b983aa9ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c115ac36-f11e-4f2e-8fc5-21b42d58c17d","name":"c115ac36-f11e-4f2e-8fc5-21b42d58c17d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7dbc63d8-dddf-4846-a203-a5590d77b1b4","blendMode":0,"displayName":"default","isLocked":false,"name":"7dbc63d8-dddf-4846-a203-a5590d77b1b4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ad1c9d0f-0aa3-4c34-99a6-d5c00567846a","blendMode":0,"displayName":"default","isLocked":false,"name":"ad1c9d0f-0aa3-4c34-99a6-d5c00567846a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_moonflower",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4e9d8f07-bf89-4f6a-80fe-c6975c7093bf","path":"sprites/spr_moonflower/spr_moonflower.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"20d080cb-12cf-4dfe-a675-28a4e0d7553f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"de55401a-6723-4d23-a49b-978b983aa9ba","path":"sprites/spr_moonflower/spr_moonflower.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fbb274b7-aced-4d81-98a6-ecaf5abb58ed","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9cfde17e-e799-460e-9081-d859ebddad66","path":"sprites/spr_moonflower/spr_moonflower.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"03632e46-0193-4e9d-93d1-b59eac8c8df1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c115ac36-f11e-4f2e-8fc5-21b42d58c17d","path":"sprites/spr_moonflower/spr_moonflower.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bcb45354-7d56-4ec5-8d1c-19cf1fbfed0f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

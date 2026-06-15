@@ -8,5 +8,9 @@
     {"name":"spr_inventory","order":2,"path":"sprites/spr_inventory/spr_inventory.yy",},
     {"name":"spr_npc_sensei_idle","order":1,"path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},
     {"name":"spr_slots","order":3,"path":"sprites/spr_slots/spr_slots.yy",},
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_npc","order":2,"path":"objects/obj_npc/obj_npc.yy",},
+    {"name":"spr_npc","order":1,"path":"sprites/spr_npc/spr_npc.yy",},
   ],
 }

@@ -42,3 +42,6 @@ dmg = 2;
 invincible = false;
 
 attackQReady = true;
+
+currentText = "";
+currentlyTalking = false;
