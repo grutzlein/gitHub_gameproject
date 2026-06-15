@@ -10,8 +10,8 @@
   "name":"obj_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"pixel_project",
-    "path":"pixel_project.yyp",
+    "name":"inventory",
+    "path":"folders/inventory.yy",
   },
   "parentObjectId":null,
   "persistent":false,
