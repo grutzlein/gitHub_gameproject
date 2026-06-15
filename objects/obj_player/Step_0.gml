@@ -1,6 +1,7 @@
 if (state == states.idle or state == states.walk or state == states.dash ) {
 
 	dashDuration = max(dashDuration -1, 0);
+	
 
 	if ( currentlyTalking == noone) {
 	left = keyboard_check(ord("A")) == true;
