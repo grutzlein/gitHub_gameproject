@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"enemies","folderPath":"folders/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"environment","folderPath":"folders/environment.yy","name":"environment","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,6 +34,7 @@
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"setup_path","path":"objects/setup_path/setup_path.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"draw_health","path":"scripts/draw_health/draw_health.yy",},},
     {"id":{"name":"draw_manabar","path":"scripts/draw_manabar/draw_manabar.yy",},},
     {"id":{"name":"State","path":"scripts/State/State.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},

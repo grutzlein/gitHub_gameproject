@@ -7,10 +7,12 @@ states = {
 	walk : new State(spr_evilsoldier_walk),
 	attack : new State(spr_evilsoldier_attack),
 	idle : new State(spr_evilsoldier_idle),
-	dead : new State(spr_evilsoldier_death)
+	dead : new State(spr_evilsoldier_death),
+	knockback : new State(spr_evilsoldier_idle)
 }
 
 states.attack.StateOnEnd(states.idle);
+states.knockback.StateOnEnd(states.idle);
 
 state = states.idle;
 
@@ -35,3 +37,10 @@ invincible = false;
 dead = false;
 
 hpLowerZero = false;
+
+dirToPlayer = point_direction(x, y, obj_player.x, obj_player.y);
+
+kb_x = 0;
+kb_y = 0;
+
+attackReady = true;

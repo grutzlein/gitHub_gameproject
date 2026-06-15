@@ -4,3 +4,4 @@ if (hp <= 0) {
 	
 }
 
+dirToPlayer = point_direction(x, y, obj_player.x, obj_player.y);

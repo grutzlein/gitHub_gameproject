@@ -21,8 +21,10 @@ if (state == states.idle or state == states.walk) {
 		player_close = true;
 	}
 	
-	if (player_close ==  true) {
+	if (player_close and attackReady) {
 		state_set_attack_enemy(states.attack);
+		attackReady = false;
+		alarm[2] = 90;
 	}
 	
 	if (distance_to_object(obj_player) >= 10) {
@@ -70,4 +72,4 @@ if (state == states.idle or state == states.walk) {
 		away_from_home = false;
 	}
 }
-alarm_set(0, 60);
+alarm_set(0, 10);
