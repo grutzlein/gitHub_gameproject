@@ -1,7 +1,7 @@
 if (state == states.idle or state == states.walk or state == states.dash) {
 
 	dashDuration = max(dashDuration -1, 0);
-
+	
 	left = keyboard_check(ord("A")) == true;
 	right = keyboard_check(ord("D")) == true;
 	up = keyboard_check(ord("W")) == true;

@@ -45,3 +45,8 @@ attackQReady = true;
 
 currentText = "";
 currentlyTalking = false;
+
+kb_x = 0;
+kb_y = 0;
+
+moveable = true;
