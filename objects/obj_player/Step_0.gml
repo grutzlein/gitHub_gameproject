@@ -1,7 +1,9 @@
-if (state == states.idle or state == states.walk or state == states.dash) {
+if (state == states.idle or state == states.walk or state == states.dash ) {
 
 	dashDuration = max(dashDuration -1, 0);
 	
+
+	if ( currentlyTalking == noone) {
 	left = keyboard_check(ord("A")) == true;
 	right = keyboard_check(ord("D")) == true;
 	up = keyboard_check(ord("W")) == true;
@@ -56,7 +58,7 @@ if (state == states.idle or state == states.walk or state == states.dash) {
 		attackQReady = false;
 		alarm[1] = 60;
 	}
-	
+	}
 }
 
 if (mana <= manaTotal - 0.015) {
@@ -67,11 +69,26 @@ depth = -y;
 
 
 if (keyboard_check_pressed(vk_enter)) {
-	var who_is_here = instance_place(x,y,obj_npc);
+	if(currentlyTalking == noone) {
+	var who_is_here = instance_place(x,y,obj_npc_talk);
 	if ( who_is_here != noone) {
-	currentText = who_is_here.text;
-	currentlyTalking = true;
+	currentText = who_is_here.text[0];
+	currentlyTalking = who_is_here;
+	current_text_index = 0;
+	current_text_line_number = 0;
 	}
+
+	}else {
+		if (current_text_line_number < array_length(currentlyTalking.text) -1) {
+		current_text_line_number ++;
+		currentText = currentlyTalking.text[current_text_line_number]
+		current_text_index = 0;
+		} else {
+		currentlyTalking = noone;
+		}
+
+	}
+
 }
 
 

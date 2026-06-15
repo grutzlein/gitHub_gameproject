@@ -9,6 +9,7 @@
     {"name":"sripts","order":13,"path":"folders/sripts.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_npc_talk","order":15,"path":"objects/obj_npc_talk/obj_npc_talk.yy",},
     {"name":"obj_npc","order":5,"path":"objects/obj_npc/obj_npc.yy",},
     {"name":"obj_rock1","order":11,"path":"objects/obj_rock1/obj_rock1.yy",},
     {"name":"obj_rock2","order":13,"path":"objects/obj_rock2/obj_rock2.yy",},
@@ -23,6 +24,7 @@
     {"name":"spr_rock1","order":10,"path":"sprites/spr_rock1/spr_rock1.yy",},
     {"name":"spr_rock2","order":12,"path":"sprites/spr_rock2/spr_rock2.yy",},
     {"name":"spr_rock3","order":15,"path":"sprites/spr_rock3/spr_rock3.yy",},
+    {"name":"spr_npc_sensei_talkl","order":16,"path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},
     {"name":"spr_soldi2","order":1,"path":"sprites/spr_soldi2/spr_soldi2.yy",},
     {"name":"spr_solid","order":4,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"spr_spidereye","order":1,"path":"sprites/spr_spidereye/spr_spidereye.yy",},

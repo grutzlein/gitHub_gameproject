@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_npc_sensei_idle",
+  "%Name":"spr_npc_sensei_talkl",
   "bboxMode":2,
-  "bbox_bottom":12,
-  "bbox_left":5,
-  "bbox_right":22,
-  "bbox_top":3,
+  "bbox_bottom":30,
+  "bbox_left":3,
+  "bbox_right":24,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -24,9 +24,9 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"c31df335-a974-4586-a0ff-0f4e5924b321","blendMode":0,"displayName":"default","isLocked":false,"name":"c31df335-a974-4586-a0ff-0f4e5924b321","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_npc_sensei_idle",
+  "name":"spr_npc_sensei_talkl",
   "nineSlice":null,
-  "origin":7,
+  "origin":0,
   "parent":{
     "name":"pixel_project",
     "path":"pixel_project.yyp",
@@ -36,7 +36,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_npc_sensei_idle",
+    "%Name":"spr_npc_sensei_talkl",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_npc_sensei_idle",
+    "name":"spr_npc_sensei_talkl",
     "playback":1,
     "playbackSpeed":3.0,
     "playbackSpeedType":0,
@@ -72,23 +72,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e72efb29-6103-4284-a94d-61ac60308d0c","path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e72efb29-6103-4284-a94d-61ac60308d0c","path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"fc31fbde-9b1c-464d-8b53-b9470082ad28","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99940af8-0789-489f-8d75-850bd0b4a089","path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99940af8-0789-489f-8d75-850bd0b4a089","path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"125cabcd-5ec8-4326-bf9e-d2477632c061","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c90657b2-7036-4214-aeb1-33d95ed0f04c","path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c90657b2-7036-4214-aeb1-33d95ed0f04c","path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5770b780-31e1-4e95-8305-41568efdc702","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a6cb6a8-d305-416a-b222-50f80278f700","path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a6cb6a8-d305-416a-b222-50f80278f700","path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2638d72c-2b0a-4778-9c8d-fa69d4e1f1b0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":16,
-    "yorigin":32,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
