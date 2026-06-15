@@ -27,6 +27,8 @@ if (state == states.idle or state == states.walk or state == states.dash) {
 		hsp = sign(hor) * dashSpd;
 		currentMana -= 5;
 		state_set(states.dash);
+		invincible = true;
+		alarm[0] = 30;
 	}
 
 	move_and_collide(hsp, vsp, obj_solid_parent);
@@ -49,8 +51,10 @@ if (state == states.idle or state == states.walk or state == states.dash) {
 		state_set(states.idle);	
 	}
 	
-	if (attack) {
+	if (attack and attackQReady) {
 		state_set_attack(states.attack);
+		attackQReady = false;
+		alarm[1] = 60;
 	}
 	
 }

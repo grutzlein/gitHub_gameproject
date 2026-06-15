@@ -19,3 +19,11 @@ function state_set_attack (_state) {
 	_hitbox.sprite_index = sprite_index;
 	_hitbox.image_xscale = image_xscale;
 }
+
+function state_set_attack_enemy (_state) {
+	state_set(_state);
+	var _hitbox = instance_create_layer(x, y, "Instances", obj_hitboxEnemy);
+	_hitbox.sprite_index = sprite_index;
+	_hitbox.image_xscale = image_xscale;
+
+}

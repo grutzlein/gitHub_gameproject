@@ -14,7 +14,30 @@ states.dash.StateOnEnd(states.idle);
 state = states.idle;
 
 dashDuration = 0;
-dashSpd = 10;
+dashSpd = 30;
 
 maxMana = 10;
 currentMana = maxMana;
+
+lvl = 1;
+xp = 0;
+xpRequire = 10;
+
+function add_xp (xp_to_add) {
+	xp += xp_to_add;
+	if (xp >= xpRequire) {
+		lvl++;
+		xp -= xpRequire;
+		xpRequire *= 1.4;
+		hp *= 1.1;
+		dmg *= 1.05;
+	}
+}
+
+hpTotal = 10;
+hp = hpTotal;
+
+dmg = 2;
+invincible = false;
+
+attackQReady = true;
