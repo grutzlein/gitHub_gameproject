@@ -19,9 +19,18 @@ var xp_barw = barw * (xp / xpRequire);
 dy += barh + 8;
 
 draw_sprite_stretched(spr_box, 0, dx, dy, barw, barh);
-draw_sprite_stretched_ext(spr_box, 1, dx, dy, xp_barw, barh, c_blue, 0.6);
+draw_sprite_stretched_ext(spr_box, 1, dx, dy, xp_barw, barh, c_lime, 0.6);
 
 draw_text(dx + barw / 2, dy + barh / 2, $"LEVEL{lvl}");
+
+
+var mana_barw = barw * (mana / manaTotal);
+dy += barh + 16;
+
+draw_sprite_stretched(spr_box, 0, dx, dy, barw, barh);
+draw_sprite_stretched_ext(spr_box, 1, dx, dy, mana_barw, barh, c_blue, 0.6);
+
+draw_text(dx + barw / 2, dy + barh / 2, "MANA");
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

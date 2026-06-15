@@ -16,8 +16,8 @@ state = states.idle;
 dashDuration = 0;
 dashSpd = 30;
 
-maxMana = 10;
-currentMana = maxMana;
+manaTotal = 10;
+mana = manaTotal;
 
 lvl = 1;
 xp = 0;
@@ -29,8 +29,9 @@ function add_xp (xp_to_add) {
 		lvl++;
 		xp -= xpRequire;
 		xpRequire *= 1.4;
-		hp *= 1.1;
+		hpTotal *= 1.1;
 		dmg *= 1.05;
+		manaTotal *= 1.1;
 	}
 }
 

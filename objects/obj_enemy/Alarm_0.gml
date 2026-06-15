@@ -17,7 +17,7 @@ if (state == states.idle or state == states.walk) {
 	
 	
 	
-	if (distance_to_object(obj_player) <= 10) {
+	if (distance_to_object(obj_player) <= 20) {
 		player_close = true;
 	}
 	
