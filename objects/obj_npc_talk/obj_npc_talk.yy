@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc",
+  "%Name":"obj_npc_talk",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc",
+  "name":"obj_npc_talk",
   "overriddenProperties":[],
   "parent":{
     "name":"pixel_project",
     "path":"pixel_project.yyp",
   },
-  "parentObjectId":{
-    "name":"obj_solid_parent",
-    "path":"objects/obj_solid_parent/obj_solid_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_sensei_idle",
-    "path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",
+    "name":"spr_npc_sensei_talkl",
+    "path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",
   },
   "spriteMaskId":null,
   "visible":true,
