@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc",
-    "path":"sprites/spr_npc/spr_npc.yy",
+    "name":"spr_npc_sensei_idle",
+    "path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
