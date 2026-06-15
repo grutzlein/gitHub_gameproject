@@ -1,7 +1,8 @@
-if (state == states.idle or state == states.walk or state == states.dash) {
+if (state == states.idle or state == states.walk or state == states.dash ) {
 
 	dashDuration = max(dashDuration -1, 0);
 
+	if ( currentlyTalking == false) {
 	left = keyboard_check(ord("A")) == true;
 	right = keyboard_check(ord("D")) == true;
 	up = keyboard_check(ord("W")) == true;
@@ -56,7 +57,7 @@ if (state == states.idle or state == states.walk or state == states.dash) {
 		attackQReady = false;
 		alarm[1] = 60;
 	}
-	
+	}
 }
 
 if (mana <= manaTotal - 0.015) {
@@ -72,6 +73,10 @@ if (keyboard_check_pressed(vk_enter)) {
 	currentText = who_is_here.text;
 	currentlyTalking = true;
 	}
+	else {
+		currentlyTalking = false;
+	}
+
 }
 
 
