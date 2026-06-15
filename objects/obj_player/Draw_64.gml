@@ -40,7 +40,7 @@ if (currentlyTalking != noone) {
 	var y1 = window_get_height() - 160;
 	var x2 = window_get_width();
 	var y2 = window_get_height();
-	draw_set_colour(c_white); 
+	draw_set_colour(c_black); 
 	draw_rectangle(x1,y1,x2,y2, false);
 	
 	var text_Padding = 32;
@@ -50,7 +50,7 @@ if (currentlyTalking != noone) {
 	var box_w = x2 - x1 - text_Padding * 2;
 	var box_h = y2 - y1;
 	
-	draw_set_colour(c_black);
+	draw_set_colour(c_white);
 	draw_text_ext(text_x,text_y,string_copy(currentText,1,current_text_index), -1, box_w );
 	current_text_index ++;
 }
