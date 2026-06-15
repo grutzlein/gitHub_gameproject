@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"sripts",
-    "path":"folders/sripts.yy",
+    "name":"pixel_project",
+    "path":"pixel_project.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

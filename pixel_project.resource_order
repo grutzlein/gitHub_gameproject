@@ -1,16 +1,21 @@
 {
   "FolderOrderSettings":[
-    {"name":"items","order":2,"path":"folders/items.yy",},
-    {"name":"inventory","order":1,"path":"folders/inventory.yy",},
+    {"name":"enemies","order":7,"path":"folders/enemies.yy",},
+    {"name":"environment","order":8,"path":"folders/environment.yy",},
+    {"name":"fonts","order":9,"path":"folders/fonts.yy",},
+    {"name":"inventory","order":10,"path":"folders/inventory.yy",},
+    {"name":"items","order":11,"path":"folders/items.yy",},
+    {"name":"player","order":12,"path":"folders/player.yy",},
+    {"name":"sripts","order":13,"path":"folders/sripts.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_mouse","order":1,"path":"objects/obj_mouse/obj_mouse.yy",},
-    {"name":"spr_inventory","order":2,"path":"sprites/spr_inventory/spr_inventory.yy",},
-    {"name":"spr_npc_sensei_idle","order":1,"path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},
-    {"name":"spr_slots","order":3,"path":"sprites/spr_slots/spr_slots.yy",},
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[
-    {"name":"obj_npc","order":2,"path":"objects/obj_npc/obj_npc.yy",},
-    {"name":"spr_npc","order":1,"path":"sprites/spr_npc/spr_npc.yy",},
+    {"name":"obj_npc","order":5,"path":"objects/obj_npc/obj_npc.yy",},
+    {"name":"obj_solid_parent","order":3,"path":"objects/obj_solid_parent/obj_solid_parent.yy",},
+    {"name":"setup_path","order":6,"path":"objects/setup_path/setup_path.yy",},
+    {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
+    {"name":"spr_npc_sensei_idle","order":14,"path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},
+    {"name":"spr_soldi2","order":1,"path":"sprites/spr_soldi2/spr_soldi2.yy",},
+    {"name":"spr_solid","order":4,"path":"sprites/spr_solid/spr_solid.yy",},
+    {"name":"spr_spidereye","order":1,"path":"sprites/spr_spidereye/spr_spidereye.yy",},
   ],
 }

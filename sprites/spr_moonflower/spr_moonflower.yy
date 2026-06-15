@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"pixel_project",
-    "path":"pixel_project.yyp",
+    "name":"items",
+    "path":"folders/items.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
