@@ -66,7 +66,7 @@ if (currentlyTalking != noone) {
 	draw_set_colour(c_yellow);
 	draw_text(text_x, y1 , speaker_name);
 	
-	speaker_sprite = spr_npc_sensei_talkface;
+	speaker_sprite = spr_npc_sensei_talkl;
 	draw_sprite_ext(speaker_sprite,0, x1 + 10, y1 + 10,2,2,0,c_white,1);
 	
 	

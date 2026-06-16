@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_sensei_talkl",
-    "path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",
+    "name":"spr_npc_sensei_talklf",
+    "path":"sprites/spr_npc_sensei_talklf/spr_npc_sensei_talklf.yy",
   },
   "spriteMaskId":null,
   "visible":true,

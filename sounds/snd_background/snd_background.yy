@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"se_footsteps",
+  "%Name":"snd_background",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":2,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.0,
+  "duration":126.624016,
   "exportDir":"",
-  "name":"se_footsteps",
+  "name":"snd_background",
   "parent":{
     "name":"pixel_project",
     "path":"pixel_project.yyp",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"se_footsteps.wav",
-  "volume":0.26,
+  "soundFile":"snd_background.mp3",
+  "volume":0.12,
 }

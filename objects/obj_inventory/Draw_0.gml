@@ -16,7 +16,7 @@ draw_sprite_stretched
  {
 	 var xx = x + (i mod rowLength) * 36 + 2;
 	 var yy = y + (i div rowLength) * 36 + 2;
-	 var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
+	 var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i);
 	draw_sprite(spr_slots,hover,xx,yy);
 	if  (inventory[i] != -1)
 	
