@@ -43,7 +43,7 @@ with(obj_inventory)
 stateFree = function()
 {
 	mouseOver();
-	if(mouse_check_button(mb_left)) && slotHover != -1 && (inventoryHover.inventory[slotHover] != -1)
+	if(mouse_check_button(mb_left) && slotHover != -1 && (inventoryHover.inventory[slotHover] != -1))
 	{
 		state = stateDrag;
 		itemDrag = inventoryHover.inventory[slotHover];
