@@ -3,7 +3,6 @@ slotHover = -1;
 inventoryDrag = -1;
 slotDrag = -1;
 itemDrag = -1;
-state = stateFree;
 
 mouseOver = function()
 { 
@@ -52,7 +51,6 @@ stateFree = function()
 		slotDrag = slotHover;
 	}
 }
-
  stateDrag = function()
  {
 	 mouseOver();
@@ -68,6 +66,23 @@ stateFree = function()
  }
  
  state = stateFree;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
