@@ -1,3 +1,4 @@
+spdNormal = 1;
 current_text_index = 0;
 spdNormal = 1;
 spdDiagonal = 1;
