@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"se_footsteps",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.0,
+  "exportDir":"",
+  "name":"se_footsteps",
+  "parent":{
+    "name":"pixel_project",
+    "path":"pixel_project.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"se_footsteps.wav",
+  "volume":1.0,
+}
