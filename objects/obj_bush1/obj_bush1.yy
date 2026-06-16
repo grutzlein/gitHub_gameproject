@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_talk",
+  "%Name":"obj_bush1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc_talk",
+  "name":"obj_bush1",
   "overriddenProperties":[],
   "parent":{
-    "name":"npc",
-    "path":"folders/npc.yy",
+    "name":"environment",
+    "path":"folders/environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_sensei_talkl",
-    "path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",
+    "name":"Vegetation29",
+    "path":"sprites/Vegetation29/Vegetation29.yy",
   },
   "spriteMaskId":null,
   "visible":true,

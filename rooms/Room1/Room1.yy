@@ -99,6 +99,9 @@
     {"name":"inst_16E42AE8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_60C00F81","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2EAFF9B1","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7CB06102","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7198109","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_57270DC9","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
