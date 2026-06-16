@@ -27,8 +27,6 @@ draw_sprite_stretched
 		draw_set_alpha(alpha);
 		draw_sprite(spr_moonflower,inventory[i],xx,yy);
 		draw_set_alpha(1.0);
-	
-	
 	}
  }
  stateInventory = "open";

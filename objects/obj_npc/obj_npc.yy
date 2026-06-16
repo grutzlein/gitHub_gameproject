@@ -8,8 +8,8 @@
   "name":"obj_npc",
   "overriddenProperties":[],
   "parent":{
-    "name":"npc",
-    "path":"folders/npc.yy",
+    "name":"pixel_project",
+    "path":"pixel_project.yyp",
   },
   "parentObjectId":{
     "name":"obj_solid_parent",
