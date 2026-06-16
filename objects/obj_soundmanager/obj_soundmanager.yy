@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_talk",
+  "%Name":"obj_soundmanager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc_talk",
+  "name":"obj_soundmanager",
   "overriddenProperties":[],
   "parent":{
-    "name":"npc",
-    "path":"folders/npc.yy",
+    "name":"pixel_project",
+    "path":"pixel_project.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_npc_sensei_talkl",
-    "path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
