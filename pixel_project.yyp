@@ -27,6 +27,7 @@
   },
   "name":"pixel_project",
   "resources":[
+    {"id":{"name":"font_dialogue","path":"fonts/font_dialogue/font_dialogue.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"spr_inventory","path":"sprites/spr_inventory/spr_inventory.yy",},},
     {"id":{"name":"spr_moonflower","path":"sprites/spr_moonflower/spr_moonflower.yy",},},
     {"id":{"name":"spr_npc_sensei_idle","path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},},
+    {"id":{"name":"spr_npc_sensei_talkface","path":"sprites/spr_npc_sensei_talkface/spr_npc_sensei_talkface.yy",},},
     {"id":{"name":"spr_npc_sensei_talkl","path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_kick","path":"sprites/spr_player_kick/spr_player_kick.yy",},},

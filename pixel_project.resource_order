@@ -9,6 +9,7 @@
     {"name":"sripts","order":13,"path":"folders/sripts.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"font_dialogue","order":1,"path":"fonts/font_dialogue/font_dialogue.yy",},
     {"name":"obj_npc_talk","order":15,"path":"objects/obj_npc_talk/obj_npc_talk.yy",},
     {"name":"obj_npc","order":5,"path":"objects/obj_npc/obj_npc.yy",},
     {"name":"obj_rock1","order":11,"path":"objects/obj_rock1/obj_rock1.yy",},
@@ -23,6 +24,7 @@
     {"name":"se_footsteps","order":17,"path":"sounds/se_footsteps/se_footsteps.yy",},
     {"name":"snd_background","order":18,"path":"sounds/snd_background/snd_background.yy",},
     {"name":"spr_npc_sensei_idle","order":14,"path":"sprites/spr_npc_sensei_idle/spr_npc_sensei_idle.yy",},
+    {"name":"spr_npc_sensei_talkface","order":20,"path":"sprites/spr_npc_sensei_talkface/spr_npc_sensei_talkface.yy",},
     {"name":"spr_npc_sensei_talkl","order":16,"path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},
     {"name":"spr_rock1","order":10,"path":"sprites/spr_rock1/spr_rock1.yy",},
     {"name":"spr_rock2","order":12,"path":"sprites/spr_rock2/spr_rock2.yy",},

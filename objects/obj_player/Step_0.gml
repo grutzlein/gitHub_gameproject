@@ -90,18 +90,8 @@ if (keyboard_check_pressed(vk_enter)) {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if ( left != false or  right != false or up != false or down != false) {
+	if(!audio_is_playing(se_footsteps)) {
+		audio_play_sound(se_footsteps,100,false);
+	}
+}

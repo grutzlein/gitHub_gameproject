@@ -36,21 +36,44 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 if (currentlyTalking != noone) {
-	var x1 = 0
+	var x1 = 300;
 	var y1 = window_get_height() - 160;
-	var x2 = window_get_width();
-	var y2 = window_get_height();
-	draw_set_colour(c_black); 
-	draw_rectangle(x1,y1,x2,y2, false);
+	var x2 = window_get_width() - 300;
+	var y2 = window_get_height() - 32;
 	
-	var text_Padding = 32;
-	var text_x = x1 + text_Padding;
-	var text_y = y1 + text_Padding;
+	/*draw_set_colour(c_black); 
+	draw_rectangle(x1,y1,x2,y2, false);*/
 	
-	var box_w = x2 - x1 - text_Padding * 2;
+	var box_w = x2 - x1;
 	var box_h = y2 - y1;
 	
+	speaker_name = "Hurt Sensei:";
+	
+	draw_set_alpha(0.85);
+	draw_sprite_stretched(spr_textbox_2,0,x1,y1,box_w,box_h);
+	draw_set_alpha(1);
+	
+	var text_Padding = 32;
+	/*var text_x = x1 + text_Padding;
+	var text_y = y1 + text_Padding;
+	var text_w = box_w - text_Padding * 2;*/
+	var portrait_w = 96;
+
+	var text_x = x1 + portrait_w + 20;
+	var text_y = y1 + 30;
+	var text_w = box_w - portrait_w - 40;
+	
+	draw_set_colour(c_yellow);
+	draw_text(text_x, y1 , speaker_name);
+	
+	speaker_sprite = spr_npc_sensei_talkface;
+	draw_sprite_ext(speaker_sprite,0, x1 + 70, y1 + 130,4,4,0,c_white,1);
+	
+	
+	
+	
 	draw_set_colour(c_white);
-	draw_text_ext(text_x,text_y,string_copy(currentText,1,current_text_index), -1, box_w );
+	draw_set_font(font_dialogue)
+	draw_text_ext(text_x,text_y,string_copy(currentText,1,current_text_index), -1, text_w);
 	current_text_index ++;
 }
