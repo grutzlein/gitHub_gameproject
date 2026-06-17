@@ -35,6 +35,7 @@
     {"name":"spr_npc_sensei_talkface","order":3,"path":"sprites/spr_npc_sensei_talkface/spr_npc_sensei_talkface.yy",},
     {"name":"spr_npc_sensei_talkl","order":4,"path":"sprites/spr_npc_sensei_talkl/spr_npc_sensei_talkl.yy",},
     {"name":"spr_player_attack","order":3,"path":"sprites/spr_player_attack/spr_player_attack.yy",},
+    {"name":"spr_player_dash","order":4,"path":"sprites/spr_player_dash/spr_player_dash.yy",},
     {"name":"spr_player_idle","order":2,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"spr_player_run","order":1,"path":"sprites/spr_player_run/spr_player_run.yy",},
     {"name":"spr_rock1","order":10,"path":"sprites/spr_rock1/spr_rock1.yy",},

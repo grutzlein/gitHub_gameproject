@@ -9,7 +9,7 @@ states = {
 	idle : new State(spr_player_idle),
 	walk : new State(spr_player_run),
 	attack : new State(spr_player_attack),
-	dash : new State(spr_player_roll)
+	dash : new State(spr_player_dash)
 	}
 	
 states.attack.StateOnEnd(states.idle);
@@ -18,7 +18,7 @@ states.dash.StateOnEnd(states.idle);
 state = states.idle;
 
 dashDuration = 0;
-dashSpd = 30;
+dashSpd = 50;
 
 manaTotal = 10;
 mana = manaTotal;

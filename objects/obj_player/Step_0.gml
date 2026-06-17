@@ -23,7 +23,7 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 		vsp = ver * spdNormal;
 	}
 	
-	if (dash and mana >= 5) {
+	if (dash and mana >= 5 and distance_to_object(obj_bluespirit) <= 10) {
 		dashDuration = 10;
 		hsp = sign(hor) * dashSpd;
 		mana -= 5;
