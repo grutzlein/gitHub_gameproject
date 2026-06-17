@@ -23,7 +23,7 @@
   ],
   "name":"spr_solid",
   "nineSlice":null,
-  "origin":6,
+  "origin":7,
   "parent":{
     "name":"pixel_project",
     "path":"pixel_project.yyp",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":8,
     "yorigin":16,
   },
   "swatchColours":null,

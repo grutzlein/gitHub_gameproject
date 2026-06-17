@@ -1,15 +1,15 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_walls",
+  "%Name":"ts_water",
   "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_stair_stone","closed_edge":false,"name":"autotile_stair_stone","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[432,0,0,407,0,431,0,406,0,0,433,408,457,456,458,0,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_walls",
+  "name":"ts_water",
   "out_columns":25,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -20,8 +20,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Wall_Tiles",
-    "path":"sprites/Wall_Tiles/Wall_Tiles.yy",
+    "name":"spr_water_tiles",
+    "path":"sprites/spr_water_tiles/spr_water_tiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
