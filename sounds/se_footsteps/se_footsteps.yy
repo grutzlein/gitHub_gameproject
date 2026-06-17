@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"se_footsteps",
   "parent":{
-    "name":"pixel_project",
-    "path":"pixel_project.yyp",
+    "name":"soundsandmusic",
+    "path":"folders/soundsandmusic.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

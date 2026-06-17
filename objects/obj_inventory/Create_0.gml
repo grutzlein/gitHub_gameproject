@@ -9,4 +9,3 @@ inventory[2] = 0;
 InventoryOpen = false;
 
 stateInventory = "closed";
-

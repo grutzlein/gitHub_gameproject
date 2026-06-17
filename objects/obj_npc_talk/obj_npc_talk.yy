@@ -8,8 +8,8 @@
   "name":"obj_npc_talk",
   "overriddenProperties":[],
   "parent":{
-    "name":"pixel_project",
-    "path":"pixel_project.yyp",
+    "name":"npc",
+    "path":"folders/npc.yy",
   },
   "parentObjectId":null,
   "persistent":false,
