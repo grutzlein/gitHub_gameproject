@@ -3,12 +3,12 @@
     {"name":"enemies","order":7,"path":"folders/enemies.yy",},
     {"name":"environment","order":8,"path":"folders/environment.yy",},
     {"name":"fonts","order":9,"path":"folders/fonts.yy",},
-    {"name":"spirits","order":26,"path":"folders/spirits.yy",},
     {"name":"inventory","order":10,"path":"folders/inventory.yy",},
     {"name":"items","order":11,"path":"folders/items.yy",},
     {"name":"npc","order":21,"path":"folders/npc.yy",},
     {"name":"player","order":12,"path":"folders/player.yy",},
     {"name":"soundsandmusic","order":22,"path":"folders/soundsandmusic.yy",},
+    {"name":"spirits","order":26,"path":"folders/spirits.yy",},
     {"name":"sripts","order":13,"path":"folders/sripts.yy",},
   ],
   "ResourceOrderSettings":[
