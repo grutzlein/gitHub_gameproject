@@ -7,8 +7,8 @@ current_text_line_number = 0;
 
 states = {
 	idle : new State(spr_player_idle),
-	walk : new State(spr_player_walk),
-	attack : new State(spr_player_kick),
+	walk : new State(spr_player_run),
+	attack : new State(spr_player_attack),
 	dash : new State(spr_player_roll)
 	}
 	
