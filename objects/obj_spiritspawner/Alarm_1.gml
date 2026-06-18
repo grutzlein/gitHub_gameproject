@@ -1,3 +1,3 @@
 spawnSpiritNearPlayer();
 
-alarm_set(1, 180);
+alarm_set(1, 240);

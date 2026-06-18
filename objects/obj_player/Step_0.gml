@@ -23,12 +23,12 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 		vsp = ver * spdNormal;
 	}
 	
-	if (spiritcast and mana >= 4 and distance_to_object(obj_bluespirit) <= 30) {
+	if (spiritcast and mana >= 5 and distance_to_object(obj_bluespirit) <= 20) {
 		spiritUsed = instance_nearest(x, y, obj_bluespirit);
 		spiritUsed.alive = false;
 		dashDuration = 10;
 		hsp = sign(hor) * dashSpd;
-		mana -= 4;
+		mana -= 5;
 		state_set(states.dash);
 		invincible = true;
 		alarm[0] = 30;
@@ -60,13 +60,13 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 		alarm[1] = 60;
 	}
 	
-	if (spiritcast and mana >= 4 and distance_to_object(obj_redspirit) <= 30) {
+	if (spiritcast and mana >= 5 and distance_to_object(obj_redspirit) <= 20) {
 		spiritUsedRed = instance_nearest(x, y, obj_redspirit);
 		spiritUsedRed.alive = false;
 		dmgSave = dmg;
 		dmg = dmgSpiritAttack;
 		state_set_attack(states.spiritattack);
-		mana -= 4;
+		mana -= 5;
 	}
 }
 
