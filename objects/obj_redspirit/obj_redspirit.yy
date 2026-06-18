@@ -1,14 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bluespirit",
+  "%Name":"obj_redspirit",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bluespirit",
+  "name":"obj_redspirit",
   "overriddenProperties":[],
   "parent":{
     "name":"spirits",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bluespirit_spawn",
-    "path":"sprites/spr_bluespirit_spawn/spr_bluespirit_spawn.yy",
+    "name":"spr_redspirit_spawn",
+    "path":"sprites/spr_redspirit_spawn/spr_redspirit_spawn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

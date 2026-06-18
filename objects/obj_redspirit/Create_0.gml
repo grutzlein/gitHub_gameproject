@@ -2,8 +2,8 @@ alive = true;
 alarm[0] = 480;
 
 states = {
-	idle : new State(spr_bluespirit_idle),
-	spawn : new State(spr_bluespirit_spawn)
+	idle : new State(spr_redspirit_idle),
+	spawn : new State(spr_redspirit_spawn)
 }
 
 state = states.spawn;

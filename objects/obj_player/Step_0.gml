@@ -8,7 +8,7 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 	up = keyboard_check(ord("W")) == true;
 	down = keyboard_check(ord("S")) == true;
 	attack = keyboard_check_pressed(ord("Q")) == true;
-	dash = keyboard_check_pressed(vk_space) == true;
+	spiritcast = keyboard_check_pressed(vk_space) == true;
 
 	hor = (right - left);
 	ver = (down - up);
@@ -23,10 +23,12 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 		vsp = ver * spdNormal;
 	}
 	
-	if (dash and mana >= 5 and distance_to_object(obj_bluespirit) <= 10) {
+	if (spiritcast and mana >= 4 and distance_to_object(obj_bluespirit) <= 30) {
+		spiritUsed = instance_nearest(x, y, obj_bluespirit);
+		spiritUsed.alive = false;
 		dashDuration = 10;
 		hsp = sign(hor) * dashSpd;
-		mana -= 5;
+		mana -= 4;
 		state_set(states.dash);
 		invincible = true;
 		alarm[0] = 30;
@@ -57,6 +59,14 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 		attackQReady = false;
 		alarm[1] = 60;
 	}
+	
+	if (spiritcast and mana >= 4 and distance_to_object(obj_redspirit) <= 30) {
+		spiritUsedRed = instance_nearest(x, y, obj_redspirit);
+		spiritUsedRed.alive = false;
+		dmgSave = dmg;
+		dmg = dmgSpiritAttack;
+		state_set_attack(states.spiritattack);
+		mana -= 4;
 	}
 }
 
@@ -77,7 +87,9 @@ if (keyboard_check_pressed(vk_enter)) {
 	current_text_line_number = 0;
 	}
 
-	}else {
+	}
+	
+	else {
 		if (current_text_line_number < array_length(currentlyTalking.text) -1) {
 		current_text_line_number ++;
 		currentText = currentlyTalking.text[current_text_line_number]
@@ -94,4 +106,5 @@ if ( left != false or  right != false or up != false or down != false) {
 	if(!audio_is_playing(se_footsteps)) {
 		audio_play_sound(se_footsteps,100,false);
 	}
+}
 }

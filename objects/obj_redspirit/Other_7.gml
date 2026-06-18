@@ -1,7 +1,3 @@
 if (state.stateOnEnd != undefined) {
 	state_set (state.stateOnEnd);
 }
-
-if (state == states.spiritattack) {
-	dmg = dmgSave;
-}

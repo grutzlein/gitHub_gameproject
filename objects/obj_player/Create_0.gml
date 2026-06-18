@@ -9,10 +9,12 @@ states = {
 	idle : new State(spr_player_idle),
 	walk : new State(spr_player_run),
 	attack : new State(spr_player_attack),
-	dash : new State(spr_player_dash)
+	dash : new State(spr_player_dash),
+	spiritattack : new State(spr_player_spiritattack)
 	}
 	
 states.attack.StateOnEnd(states.idle);
+states.spiritattack.StateOnEnd(states.idle);
 states.dash.StateOnEnd(states.idle);
 
 state = states.idle;
@@ -42,8 +44,10 @@ function add_xp (xp_to_add) {
 hpTotal = 10;
 hp = hpTotal;
 
-dmg = 2;
+dmgBegin = 2;
+dmg = dmgBegin;
 invincible = false;
+dmgSpiritAttack = dmg * 1.2;
 
 attackQReady = true;
 
