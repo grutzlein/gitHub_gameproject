@@ -20,16 +20,16 @@ with(obj_inventory)
 	my,
 	x-6,
 	y-6,
-	x-6 + 12+rowLength*36,
-	y-6 + 12+(((INVENTORY_SLOTS-1) div rowLength)+1)*36
+	x-6 + 12+rowLength*28,
+	y-6 + 12+(((INVENTORY_SLOTS-1) div rowLength)+1)*28
 ))
 {
 	for (var i = 0; i < INVENTORY_SLOTS; i += 1)
 	{
-		var xx = x+ (i mod rowLength) * 36 + 2;
-		var yy = y+ (i div rowLength) * 36 + 2;
+		var xx = x+ (i mod rowLength) * 28 + 2;
+		var yy = y+ (i div rowLength) * 28 + 2;
 		
-		if (point_in_rectangle(mx, my, xx, yy, xx + 32, yy + 32))
+		if (point_in_rectangle(mx, my, xx, yy, xx + 24, yy + 24))
 		{
 			other.slotHover = i;
 			other.inventoryHover = id;
@@ -66,19 +66,3 @@ stateFree = function()
  }
  
  state = stateFree;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

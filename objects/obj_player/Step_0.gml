@@ -68,6 +68,11 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 		state_set_attack(states.spiritattack);
 		mana -= 5;
 	}
+	
+	if (distance_to_object(obj_pickable_parent) <= 10 and keyboard_check_pressed(ord("e"))) {
+		var  itemPicked = instance_nearest(x, y, obj_pickable_parent);
+		obj_inventory.inventory[0] = itemPicked.pos;
+	}
 }
 
 if (mana <= manaTotal - 0.015) {
@@ -106,5 +111,6 @@ if ( left != false or  right != false or up != false or down != false) {
 	if(!audio_is_playing(se_footsteps)) {
 		audio_play_sound(se_footsteps,100,false);
 	}
+	
 }
 }
