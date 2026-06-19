@@ -9,4 +9,4 @@ stateInventory = "closed";
 depth = -1367;
 
 slot_x = 0;
-slot_y = 0;					
+slot_y = 0;			

@@ -69,10 +69,6 @@ if (state == states.idle or state == states.walk or state == states.dash ) {
 		mana -= 5;
 	}
 	
-	if (distance_to_object(obj_pickable_parent) <= 10 and keyboard_check_pressed(ord("e"))) {
-		var  itemPicked = instance_nearest(x, y, obj_pickable_parent);
-		obj_inventory.inventory[0] = itemPicked.pos;
-	}
 }
 
 if (mana <= manaTotal - 0.015) {
@@ -114,3 +110,9 @@ if ( left != false or  right != false or up != false or down != false) {
 	
 }
 }
+
+	if (distance_to_object(obj_pickable_parent) <= 10 and keyboard_check_pressed(ord("T"))) {
+		var  itemPicked = instance_nearest(x, y, obj_pickable_parent);
+		itemPicked.existing = false;
+		obj_inventory.inventory[0] = itemPicked.pos;
+	}
