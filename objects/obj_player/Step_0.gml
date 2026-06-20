@@ -114,5 +114,23 @@ if ( left != false or  right != false or up != false or down != false) {
 	if (distance_to_object(obj_pickable_parent) <= 10 and keyboard_check_pressed(ord("T"))) {
 		var  itemPicked = instance_nearest(x, y, obj_pickable_parent);
 		itemPicked.existing = false;
-		obj_inventory.inventory[0] = itemPicked.pos;
+		for (var i = 0; i < INVENTORY_SLOTS; i ++)
+	{
+		if(obj_inventory.inventory[i] == -1) {
+			obj_inventory.inventory[i] = itemPicked.sprite_index;
+			break;
+		}
+	 }
+	}
+	
+	if (distance_to_object(obj_gatherable_parent) <= 10 and keyboard_check_pressed(ord("T"))) {
+		var  itemPicked = instance_nearest(x, y, obj_gatherable_parent);
+		itemPicked.gathered = true;
+		for (var i = 0; i < INVENTORY_SLOTS; i ++)
+	{
+		if(obj_inventory.inventory[i] == -1) {
+			obj_inventory.inventory[i] = itemPicked.gathered;
+			break;
+		}
+	 }
 	}

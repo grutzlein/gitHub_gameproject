@@ -28,7 +28,7 @@ draw_sprite_stretched
 		
 		draw_set_alpha(alpha);
 		
-		draw_sprite_stretched(spr_item, inventory[i], xx,yy, 24, 24);
+		draw_sprite_stretched(inventory[i], 0, xx,yy, 24, 24);
 		
 		draw_set_alpha(1.0);
 	}
