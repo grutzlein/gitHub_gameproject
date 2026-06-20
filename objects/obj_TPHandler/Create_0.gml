@@ -1,0 +1,1 @@
+tpPointTo = -1;
