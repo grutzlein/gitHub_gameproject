@@ -127,10 +127,11 @@ if ( left != false or  right != false or up != false or down != false) {
 		var  itemPicked = instance_nearest(x, y, obj_gatherable_parent);
 		itemPicked.gathered = true;
 		for (var i = 0; i < INVENTORY_SLOTS; i ++)
-	{
-		if(obj_inventory.inventory[i] == -1) {
-			obj_inventory.inventory[i] = itemPicked.gathered;
-			break;
-		}
-	 }
+{
+    if(obj_inventory.inventory[i] == -1)
+    {
+        obj_inventory.inventory[i] = itemPicked.sprite_index;
+        break;
+    }
+}
 	}

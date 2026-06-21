@@ -19,20 +19,11 @@ draw_sprite_stretched
 	 
 	 var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
 	draw_sprite(spr_slots_1,hover,xx,yy);
-	if  (inventory[i] != -1)
-	
-	{
-	
-		var alpha = 1.0;
-		if (obj_mouse.inventoryDrag == id) && (obj_mouse.slotDrag == i) alpha = 0.5;
-		
-		draw_set_alpha(alpha);
-		
-		draw_sprite_stretched(inventory[i], 0, xx,yy, 24, 24);
-		
-		draw_set_alpha(1.0);
-	}
- }
+	if (inventory[i] != -1)
+{
+    draw_sprite_stretched(inventory[i], 0, xx,yy, 24, 24);
+}
  stateInventory = "open";
 }
 
+}
