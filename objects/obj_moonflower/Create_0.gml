@@ -1,11 +1,6 @@
 existing = true;
-
-if (obj_controller.moonflower_exist == false) {
-	existing = false;
-}
-
-
+destroyAfterInteraction = true;
 
 depth = -y;
 
-pos = 0;
+lookForKey(id);

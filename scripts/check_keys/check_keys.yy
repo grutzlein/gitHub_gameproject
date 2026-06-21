@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"check_keys",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_keys",
+  "parent":{
+    "name":"sripts",
+    "path":"folders/sripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

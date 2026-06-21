@@ -1,3 +1,6 @@
+global.pkeys = [];
+
+
 spdNormal = 1;
 current_text_index = 0;
 spdNormal = 1;
@@ -53,3 +56,4 @@ attackQReady = true;
 
 currentText = "";
 currentlyTalking = noone;
+

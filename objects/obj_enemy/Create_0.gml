@@ -3,6 +3,8 @@ path = path_add();
 target_x = obj_player.x;
 target_y = obj_player.y;
 
+destroyAfterInteraction = true;
+
 states = {
 	walk : new State(spr_evilsoldier_walk),
 	attack : new State(spr_evilsoldier_attack),
@@ -44,3 +46,5 @@ kb_x = 0;
 kb_y = 0;
 
 attackReady = true;
+
+lookForKey(id);
