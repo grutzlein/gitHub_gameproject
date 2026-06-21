@@ -35,6 +35,7 @@
     {"id":{"name":"obJ_berrybush","path":"objects/obJ_berrybush/obJ_berrybush.yy",},},
     {"id":{"name":"obj_bluespirit","path":"objects/obj_bluespirit/obj_bluespirit.yy",},},
     {"id":{"name":"obj_bush1","path":"objects/obj_bush1/obj_bush1.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_gatherable_parent","path":"objects/obj_gatherable_parent/obj_gatherable_parent.yy",},},
     {"id":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},},

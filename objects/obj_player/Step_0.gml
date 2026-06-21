@@ -114,6 +114,7 @@ if ( left != false or  right != false or up != false or down != false) {
 	if (distance_to_object(obj_pickable_parent) <= 10 and keyboard_check_pressed(ord("T"))) {
 		var  itemPicked = instance_nearest(x, y, obj_pickable_parent);
 		itemPicked.existing = false;
+		obj_controller.moonflower_exist = false;
 		for (var i = 0; i < INVENTORY_SLOTS; i ++)
 	{
 		if(obj_inventory.inventory[i] == -1) {

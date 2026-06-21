@@ -16,6 +16,7 @@
     {"name":"obJ_berrybush","order":30,"path":"objects/obJ_berrybush/obJ_berrybush.yy",},
     {"name":"obj_bluespirit","order":2,"path":"objects/obj_bluespirit/obj_bluespirit.yy",},
     {"name":"obj_bush1","order":19,"path":"objects/obj_bush1/obj_bush1.yy",},
+    {"name":"obj_controller","order":6,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_gatherable_parent","order":5,"path":"objects/obj_gatherable_parent/obj_gatherable_parent.yy",},
     {"name":"obj_moonflower","order":2,"path":"objects/obj_moonflower/obj_moonflower.yy",},
     {"name":"obj_npc_talk","order":1,"path":"objects/obj_npc_talk/obj_npc_talk.yy",},
